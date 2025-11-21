@@ -36,19 +36,11 @@ export const Hero = () => {
             A product launch strategy that transforms how users discover music through mood-based personalization
           </p>
 
-          {/* Team */}
+          {/* Author */}
           <div className="pt-8">
-            <p className="text-sm text-muted-foreground mb-3">Product Team</p>
-            <div className="flex flex-wrap justify-center gap-3 text-sm text-foreground/80">
-              <span>Kevin He</span>
-              <span>•</span>
-              <span>Shazeem Kudchiwala</span>
-              <span>•</span>
-              <span>Haiyi Xiao</span>
-              <span>•</span>
-              <span>Tamara Eliscovich Sigal</span>
-              <span>•</span>
-              <span>Deesha Basavaraju Raj</span>
+            <p className="text-sm text-muted-foreground mb-3">Case Study by</p>
+            <div className="text-lg font-semibold text-foreground">
+              Deesha B Raj
             </div>
           </div>
 
