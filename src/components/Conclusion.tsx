@@ -66,16 +66,10 @@ export const Conclusion = () => {
                 </p>
               </div>
 
-              {/* Team Attribution */}
+              {/* Author Attribution */}
               <div className="mt-8 pt-8 border-t border-border">
                 <p className="text-sm text-muted-foreground mb-3">Case Study by:</p>
-                <div className="flex flex-wrap gap-4">
-                  <span className="px-3 py-1 rounded-full bg-secondary/50 text-sm text-foreground">Kevin He</span>
-                  <span className="px-3 py-1 rounded-full bg-secondary/50 text-sm text-foreground">Shazeem Kudchiwala</span>
-                  <span className="px-3 py-1 rounded-full bg-secondary/50 text-sm text-foreground">Haiyi Xiao</span>
-                  <span className="px-3 py-1 rounded-full bg-secondary/50 text-sm text-foreground">Tamara Eliscovich Sigal</span>
-                  <span className="px-3 py-1 rounded-full bg-secondary/50 text-sm text-foreground">Deesha Basavaraju Raj</span>
-                </div>
+                <span className="text-lg font-semibold text-foreground">Deesha B Raj</span>
               </div>
             </div>
           </Card>

@@ -11,9 +11,17 @@ export const Overview = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               The <span className="text-primary">Challenge</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               How do we help users discover music that matches their current mood while increasing engagement and platform stickiness?
             </p>
+            
+            {/* Target Audience */}
+            <Card className="p-6 bg-gradient-to-br from-primary/5 to-secondary/10 border-primary/20 max-w-2xl mx-auto">
+              <h3 className="text-lg font-bold mb-3 text-foreground">Target Audience</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                <strong className="text-foreground">Both Free and Premium Spotify users</strong> who experience music discovery fatigue—those who spend time searching for the right songs but struggle to find music that matches their emotional state. This includes casual listeners seeking effortless discovery and power users wanting personalized recommendations that adapt to their feelings in real-time.
+              </p>
+            </Card>
           </div>
 
           {/* Stats Grid */}
@@ -63,7 +71,10 @@ export const Overview = () => {
                 Mood Mix Generator is an intelligent feature that allows Spotify users to create personalized playlists based on their current emotional state. By combining user preferences with mood-based algorithms, we deliver a discovery experience that feels both personal and effortless.
               </p>
               <p>
-                This product addresses a critical pain point: music discovery fatigue. Rather than spending time searching for the right songs, users can instantly generate playlists that match how they're feeling—whether that's energetic, relaxed, focused, or anything in between.
+                This product addresses a critical pain point: <strong className="text-foreground">music discovery fatigue</strong>. Rather than spending time searching for the right songs, users can instantly generate playlists that match how they're feeling—whether that's energetic, relaxed, focused, or anything in between.
+              </p>
+              <p>
+                The challenge isn't just about recommendation accuracy—it's about creating an experience that feels intuitive and emotionally resonant. Users don't want another algorithm; they want a tool that understands them. Mood Mix bridges this gap by transforming abstract emotions into concrete playlists, making music discovery feel less like work and more like magic.
               </p>
             </div>
           </Card>
