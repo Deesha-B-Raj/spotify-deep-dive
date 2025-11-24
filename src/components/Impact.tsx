@@ -72,7 +72,7 @@ export const Impact = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Reduced Discovery Friction</p>
                     <p className="text-sm text-muted-foreground">
-                      Users report spending 73% less time browsing for "the right music," leading to faster time-to-value and higher satisfaction scores.
+                      Research suggests users could spend 70%+ less time browsing for "the right music," leading to faster time-to-value and higher satisfaction scores.
                     </p>
                   </div>
                 </li>
@@ -90,7 +90,7 @@ export const Impact = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Discovery Habit Formation</p>
                     <p className="text-sm text-muted-foreground">
-                      60-70% of users develop a weekly habit of creating mood mixes, establishing Spotify as their go-to discovery tool.
+                      Target: 60-70% of users developing a weekly habit of creating mood mixes, establishing Spotify as their go-to discovery tool.
                     </p>
                   </div>
                 </li>
@@ -126,7 +126,7 @@ export const Impact = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Free-to-Premium Conversion</p>
                     <p className="text-sm text-muted-foreground">
-                      Enhanced discovery experience may drive higher conversion rates as free users experience the value of personalization.
+                      Enhanced discovery experience could drive higher conversion rates as free users experience the value of personalization.
                     </p>
                   </div>
                 </li>
@@ -215,13 +215,13 @@ export const Impact = () => {
               <h3 className="text-2xl font-bold mb-6 text-foreground">The Path Forward</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  The Mood Mix Generator represents more than a new feature—it's a strategic bet on emotional connection and personalized discovery. By addressing the core challenge of music discovery fatigue, we create value that resonates deeply with users while driving measurable business outcomes.
+                  The Mood Mix Generator represents more than a new feature—it's a strategic bet on emotional connection and personalized discovery. By addressing the core challenge of music discovery fatigue, this proposal creates value that would resonate deeply with users while driving measurable business outcomes.
                 </p>
                 <p>
-                  Our phased approach ensures we validate assumptions early, iterate based on real user feedback, and scale only when we've proven product-market fit. The comprehensive metrics framework provides visibility at every stage, allowing us to course-correct quickly and optimize for long-term success.
+                  The phased approach would ensure we validate assumptions early, iterate based on real user feedback, and scale only when we've proven product-market fit. The comprehensive metrics framework would provide visibility at every stage, allowing us to course-correct quickly and optimize for long-term success.
                 </p>
                 <p>
-                  Success will be measured not just in WAU adoption, but in the behavioral changes we create: users who listen more, stay longer, and develop stronger emotional ties to Spotify. That's how we build a feature that becomes indispensable.
+                  Success would be measured not just in WAU adoption, but in the behavioral changes we create: users who listen more, stay longer, and develop stronger emotional ties to Spotify. That's how we would build a feature that becomes indispensable.
                 </p>
               </div>
 

@@ -33,7 +33,7 @@ export const Hero = () => {
 
           {/* Description */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A product launch strategy that transforms how users discover music through mood-based personalization
+            A proposed product strategy to transform how users discover music through mood-based personalization
           </p>
 
           {/* Author */}

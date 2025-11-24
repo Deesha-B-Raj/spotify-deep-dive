@@ -50,7 +50,7 @@ export const LinkedInContact = () => {
             asChild
           >
             <a 
-              href="https://www.linkedin.com/in/deesha-b-raj" 
+              href="https://www.linkedin.com/in/deesharaj" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2"
