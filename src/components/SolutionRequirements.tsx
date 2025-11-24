@@ -27,7 +27,7 @@ export const SolutionRequirements = () => {
                 <h3 className="text-2xl font-bold mb-4 text-foreground">What is Mood Mix Generator?</h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Mood Mix Generator is an intelligent feature that allows Spotify users to create personalized playlists based on their current emotional state. By combining user preferences with mood-based algorithms, we deliver a discovery experience that feels both personal and effortless.
+                    Mood Mix Generator is an intelligent feature that allows Spotify users to create personalized playlists based on their current emotional state. By combining user preferences with mood-based algorithms, it delivers a discovery experience that feels both personal and effortless.
                   </p>
                   <p>
                     This product addresses a critical pain point: <strong className="text-foreground">music discovery fatigue</strong>. Rather than spending time searching for the right songs, users can instantly generate playlists that match how they're feeling—whether that's energetic, relaxed, focused, or anything in between.
@@ -43,7 +43,7 @@ export const SolutionRequirements = () => {
           {/* Success Metrics Overview */}
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-foreground mb-3">Success Metrics</h3>
-            <p className="text-lg text-muted-foreground">Our targets for making Mood Mix a game-changer</p>
+            <p className="text-lg text-muted-foreground">Target metrics for making Mood Mix a game-changer</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -143,13 +143,13 @@ export const SolutionRequirements = () => {
 
           {/* Why These Features Were Prioritized */}
           <Card className="p-8 md:p-12 mb-8 bg-gradient-to-br from-primary/5 to-secondary/10 border-primary/20">
-            <h3 className="text-2xl font-bold mb-6 text-foreground">Why We Prioritized These Features</h3>
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Why These Features Were Prioritized</h3>
             
             <div className="space-y-4">
               <div className="p-6 rounded-lg bg-background/50 border border-border/50">
                 <h4 className="font-semibold text-foreground mb-2">Speed Over Perfection</h4>
                 <p className="text-sm text-muted-foreground">
-                  Users value instant gratification. A "good enough" playlist delivered in 2 seconds beats a "perfect" playlist after 30 seconds of customization. We optimized for speed and simplicity.
+                  Users value instant gratification. A "good enough" playlist delivered in 2 seconds beats a "perfect" playlist after 30 seconds of customization. The strategy prioritizes speed and simplicity.
                 </p>
               </div>
 
