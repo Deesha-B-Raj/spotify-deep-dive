@@ -1,6 +1,9 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { DollarSign, Users, TrendingUp, Target } from "lucide-react";
+import { DollarSign, Users, TrendingUp, Target, CheckCircle2, Rocket } from "lucide-react";
+import moodMixHome from "@/assets/mood-mix-home.jpg";
+import moodMixPlaylist from "@/assets/mood-mix-playlist.jpg";
+import moodMixDesktop from "@/assets/mood-mix-desktop.jpg";
 
 export const MetricsSuccess = () => {
   return (
@@ -16,6 +19,70 @@ export const MetricsSuccess = () => {
               Comprehensive framework for measuring impact and driving accountability
             </p>
           </div>
+
+          {/* Prototype Mockups */}
+          <Card className="p-8 md:p-12 mb-12 bg-gradient-to-br from-card to-secondary/20 border-border">
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Prototype Mockups</h3>
+            <p className="text-muted-foreground mb-8 leading-relaxed">
+              Visual concepts showing how the Mood Mix Generator would integrate into Spotify's existing interface across mobile and desktop platforms.
+            </p>
+
+            <div className="space-y-8">
+              {/* Mobile Home Screen */}
+              <div>
+                <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                  <div className="w-2 h-2 rounded-full bg-primary"></div>
+                  Mobile: Mood Selection Interface
+                </h4>
+                <div className="rounded-lg overflow-hidden border border-border">
+                  <img 
+                    src={moodMixHome} 
+                    alt="Mood Mix Generator mobile home screen showing mood selection tiles"
+                    className="w-full h-auto"
+                  />
+                </div>
+                <p className="text-sm text-muted-foreground mt-3">
+                  Users select from 8-10 predefined mood categories, each with distinct visual identity and color coding for quick emotional recognition.
+                </p>
+              </div>
+
+              {/* Mobile Playlist View */}
+              <div>
+                <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                  <div className="w-2 h-2 rounded-full bg-primary"></div>
+                  Mobile: Generated Mix Playlist
+                </h4>
+                <div className="rounded-lg overflow-hidden border border-border">
+                  <img 
+                    src={moodMixPlaylist} 
+                    alt="Generated mood mix playlist showing song list with play controls"
+                    className="w-full h-auto"
+                  />
+                </div>
+                <p className="text-sm text-muted-foreground mt-3">
+                  After mood selection, users receive a personalized playlist with curated tracks that match their emotional state and listening preferences.
+                </p>
+              </div>
+
+              {/* Desktop View */}
+              <div>
+                <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                  <div className="w-2 h-2 rounded-full bg-primary"></div>
+                  Desktop: Home Screen Integration
+                </h4>
+                <div className="rounded-lg overflow-hidden border border-border">
+                  <img 
+                    src={moodMixDesktop} 
+                    alt="Spotify desktop app showing Mood Mix Generator in main content area"
+                    className="w-full h-auto"
+                  />
+                </div>
+                <p className="text-sm text-muted-foreground mt-3">
+                  Desktop experience features prominent placement on the home screen with larger mood cards and quick access to recently created mood mixes.
+                </p>
+              </div>
+            </div>
+          </Card>
 
           {/* North Star Metric */}
           <Card className="p-8 md:p-12 mb-12 bg-card border border-primary/30 relative overflow-hidden">
@@ -73,6 +140,172 @@ export const MetricsSuccess = () => {
                 </div>
               </div>
             </div>
+          </Card>
+
+          {/* Phased Launch Strategy */}
+          <Card className="p-8 md:p-12 mb-12 bg-gradient-to-br from-primary/5 to-secondary/10 border-primary/20">
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Phased Launch Strategy</h3>
+            <p className="text-muted-foreground mb-8 leading-relaxed">
+              A three-phase rollout approach to validate assumptions early, gather real user feedback, and scale responsibly while maximizing learning opportunities.
+            </p>
+
+            {/* Alpha/Beta Phase */}
+            <Card className="p-8 mb-8 bg-background/50 border-border">
+              <div className="flex items-center gap-3 mb-6">
+                <Badge variant="outline" className="text-primary border-primary px-4 py-1">
+                  Phase 1: Alpha/Beta
+                </Badge>
+                <span className="text-sm text-muted-foreground">Invite-Only Testing</span>
+              </div>
+              
+              <p className="text-muted-foreground mb-6">
+                Testing the core hypothesis: Does Mood Mix actually resonate with users, and will they come back?
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <Rocket className="w-4 h-4 text-primary" />
+                    Key Success Metrics
+                  </h4>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">30%+</strong> create their first mix within 48 hours
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">40%+</strong> return 2+ times per week
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">60%+</strong> listen to at least half the tracks
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">70%+</strong> rate mixes as helpful/accurate
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <Target className="w-4 h-4 text-primary" />
+                    What We're Learning
+                  </h4>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></div>
+                      <span className="text-sm text-muted-foreground">
+                        Does the feature resonate emotionally with users?
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></div>
+                      <span className="text-sm text-muted-foreground">
+                        Are recommendations accurate enough to drive repeat usage?
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></div>
+                      <span className="text-sm text-muted-foreground">
+                        What friction points prevent activation?
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></div>
+                      <span className="text-sm text-muted-foreground">
+                        Which mood categories resonate most?
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+
+            {/* GA Phase */}
+            <Card className="p-8 bg-background/50 border-border">
+              <div className="flex items-center gap-3 mb-6">
+                <Badge variant="outline" className="text-primary border-primary px-4 py-1">
+                  Phase 2: General Availability
+                </Badge>
+                <span className="text-sm text-muted-foreground">Full Rollout</span>
+              </div>
+              
+              <p className="text-muted-foreground mb-6">
+                Making Mood Mix a go-to way people discover music on Spotify, driving measurable business impact.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <TrendingUp className="w-4 h-4 text-primary" />
+                    Adoption Targets
+                  </h4>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">Month 3:</strong> 10-15% WAU penetration
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">Month 6:</strong> 20-25% WAU penetration
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">Month 12:</strong> 30-35% WAU penetration
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <DollarSign className="w-4 h-4 text-primary" />
+                    Business Impact Goals
+                  </h4>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        15% better retention for Mood Mix users
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        20% increase in weekly listening time
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        Reduced churn for Premium subscribers
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <span className="text-sm text-muted-foreground">
+                        Increased ad revenue for Free tier users
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
           </Card>
 
           {/* KPI Tree */}
