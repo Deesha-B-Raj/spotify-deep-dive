@@ -2,7 +2,6 @@ import { Hero } from "@/components/Hero";
 import { ProblemStatement } from "@/components/ProblemStatement";
 import { UserResearch } from "@/components/UserResearch";
 import { SolutionRequirements } from "@/components/SolutionRequirements";
-import { ExecutionTradeoffs } from "@/components/ExecutionTradeoffs";
 import { MetricsSuccess } from "@/components/MetricsSuccess";
 import { Impact } from "@/components/Impact";
 import { Glossary } from "@/components/Glossary";
@@ -15,7 +14,6 @@ const Index = () => {
       <ProblemStatement />
       <UserResearch />
       <SolutionRequirements />
-      <ExecutionTradeoffs />
       <MetricsSuccess />
       <Impact />
       <Glossary />
