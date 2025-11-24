@@ -24,7 +24,7 @@ export const Conclusion = () => {
               </div>
               <h3 className="text-lg font-bold mb-3 text-foreground">User-Centric Approach</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Success depends on solving real user pain points—music discovery fatigue—rather than just adding features. The phased launch ensures we validate this before scaling.
+                Success depends on solving real user pain points—music discovery fatigue—rather than just adding features. The phased launch would ensure validation before scaling.
               </p>
             </Card>
 
@@ -56,13 +56,13 @@ export const Conclusion = () => {
               <h3 className="text-2xl font-bold mb-6 text-foreground">The Path Forward</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  The Mood Mix Generator represents more than a new feature—it's a strategic bet on emotional connection and personalized discovery. By addressing the core challenge of music discovery fatigue, we create value that resonates deeply with users while driving measurable business outcomes.
+                  The Mood Mix Generator represents more than a new feature—it's a strategic bet on emotional connection and personalized discovery. By addressing the core challenge of music discovery fatigue, this strategy creates value that would resonate deeply with users while driving measurable business outcomes.
                 </p>
                 <p>
-                  Our phased approach ensures we validate assumptions early, iterate based on real user feedback, and scale only when we've proven product-market fit. The comprehensive metrics framework provides visibility at every stage, allowing us to course-correct quickly and optimize for long-term success.
+                  The phased approach ensures early validation of assumptions, iteration based on real user feedback, and scaling only when product-market fit is proven. The comprehensive metrics framework would provide visibility at every stage, allowing for quick course-correction and optimization for long-term success.
                 </p>
                 <p>
-                  Success will be measured not just in WAU adoption, but in the behavioral changes we create: users who listen more, stay longer, and develop stronger emotional ties to Spotify. That's how we build a feature that becomes indispensable.
+                  Success would be measured not just in WAU adoption, but in the behavioral changes created: users who listen more, stay longer, and develop stronger emotional ties to Spotify. That's how this feature would become indispensable.
                 </p>
               </div>
 

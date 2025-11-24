@@ -12,7 +12,7 @@ export const Overview = () => {
               The <span className="text-primary">Challenge</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              How do we help users discover music that matches their current mood while increasing engagement and platform stickiness?
+              How can Spotify help users discover music that matches their current mood while increasing engagement and platform stickiness?
             </p>
             
           {/* Target Audience */}
@@ -29,7 +29,7 @@ export const Overview = () => {
             <h3 className="text-2xl font-bold mb-6 text-foreground">What is Mood Mix Generator?</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Mood Mix Generator is an intelligent feature that allows Spotify users to create personalized playlists based on their current emotional state. By combining user preferences with mood-based algorithms, we deliver a discovery experience that feels both personal and effortless.
+                Mood Mix Generator is an intelligent feature that allows Spotify users to create personalized playlists based on their current emotional state. By combining user preferences with mood-based algorithms, it delivers a discovery experience that feels both personal and effortless.
               </p>
               <p>
                 This product addresses a critical pain point: <strong className="text-foreground">music discovery fatigue</strong>. Rather than spending time searching for the right songs, users can instantly generate playlists that match how they're feeling—whether that's energetic, relaxed, focused, or anything in between.
@@ -43,7 +43,7 @@ export const Overview = () => {
           {/* Success Metrics Header */}
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-foreground mb-3">Success Metrics</h3>
-            <p className="text-lg text-muted-foreground">Our targets for making Mood Mix a game-changer</p>
+            <p className="text-lg text-muted-foreground">Target metrics for making Mood Mix a game-changer</p>
           </div>
 
           {/* Stats Grid */}

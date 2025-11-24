@@ -25,7 +25,7 @@ export const ProblemStatement = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-foreground">The User Problem</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  <strong className="text-foreground">How do we help users discover music that matches their current mood while increasing engagement and platform stickiness?</strong>
+                  <strong className="text-foreground">How can Spotify help users discover music that matches their current mood while increasing engagement and platform stickiness?</strong>
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   Despite Spotify's vast music library of over 100 million tracks, users consistently report feeling overwhelmed when trying to find music that matches their emotional state. They spend valuable time browsing playlists, skipping tracks, and searching for "the right vibe"—only to end up frustrated or settling for familiar favorites.
