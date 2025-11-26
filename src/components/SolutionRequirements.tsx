@@ -27,13 +27,16 @@ export const SolutionRequirements = () => {
                 <h3 className="text-2xl font-bold mb-4 text-foreground">What is Mood Mix Generator?</h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Mood Mix Generator is an intelligent feature that allows Spotify users to create personalized playlists based on their current emotional state. By combining user preferences with mood-based algorithms, it delivers a discovery experience that feels both personal and effortless.
+                    Mood Mix Generator is an intelligent feature that allows Spotify users to create personalized playlists based on their current emotional state. By analyzing each user's unique listening history—including favorite genres, artists, audio preferences (tempo, energy, acousticness), and skip patterns—the algorithm generates mood-based playlists that feel deeply personal.
                   </p>
                   <p>
                     This product addresses a critical pain point: <strong className="text-foreground">music discovery fatigue</strong>. Rather than spending time searching for the right songs, users can instantly generate playlists that match how they're feeling—whether that's energetic, relaxed, focused, or anything in between.
                   </p>
                   <p>
-                    The challenge isn't just about recommendation accuracy—it's about creating an experience that feels intuitive and emotionally resonant. Users don't want another algorithm; they want a tool that understands them. Mood Mix bridges this gap by transforming abstract emotions into concrete playlists, making music discovery feel less like work and more like magic.
+                    <strong className="text-foreground">How Personalization Works:</strong> When a user selects a mood (e.g., "Relaxed"), the algorithm doesn't just pull generic relaxing songs. Instead, it filters for tracks with low energy and high acousticness that align with that user's listening habits. If someone frequently listens to indie folk, their "Relaxed" mix will lean toward acoustic indie. If they prefer electronic music, it might include ambient electronic tracks. This ensures every mood mix feels tailored to the individual.
+                  </p>
+                  <p>
+                    The challenge isn't just about recommendation accuracy—it's about creating an experience that feels intuitive and emotionally resonant. Users don't want another generic algorithm; they want a tool that understands their unique taste. Mood Mix bridges this gap by transforming abstract emotions into concrete, personalized playlists, making music discovery feel less like work and more like magic.
                   </p>
                 </div>
               </div>
@@ -104,7 +107,7 @@ export const SolutionRequirements = () => {
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Smart Audio Analysis Integration</h4>
                   <p className="text-sm text-muted-foreground">
-                    Leverages Spotify's audio analysis (tempo, energy, valence, acousticness) combined with listening history to ensure accurate mood matching and personalization.
+                    Leverages Spotify's audio analysis (tempo, energy, valence, acousticness) combined with individual listening history—including favorite artists, genres, skip behavior, and track completion rates—to ensure accurate mood matching and deep personalization. Each user's mood mix is unique to their taste profile.
                   </p>
                 </div>
               </div>
@@ -134,7 +137,7 @@ export const SolutionRequirements = () => {
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Continuous Learning</h4>
                   <p className="text-sm text-muted-foreground">
-                    The algorithm improves over time based on skip rates, completion rates, and explicit feedback, refining recommendations for each user.
+                    The algorithm continuously improves personalization by learning from each user's interactions—skip rates, track completion, save behavior, and explicit feedback. Over time, it becomes increasingly accurate at predicting what each individual wants to hear in any given mood.
                   </p>
                 </div>
               </div>

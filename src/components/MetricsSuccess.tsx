@@ -102,7 +102,7 @@ export const MetricsSuccess = () => {
                 Unique users who either create OR listen to mood mixes in any 7-day period
               </p>
 
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <h4 className="font-semibold text-foreground mb-3">Why This Metric?</h4>
                   <ul className="space-y-2">
@@ -139,15 +139,38 @@ export const MetricsSuccess = () => {
                   </ul>
                 </div>
               </div>
+
+              <div className="p-6 rounded-lg bg-primary/5 border border-primary/20">
+                <h4 className="font-semibold text-foreground mb-3 flex items-center gap-2">
+                  <TrendingUp className="w-4 h-4 text-primary" />
+                  How WAU Growth Drives Business Impact
+                </h4>
+                <div className="space-y-3 text-sm">
+                  <p className="text-muted-foreground">
+                    <strong className="text-foreground">For Free Users:</strong> Higher Mood Mix WAU directly increases ad impressions. Each mood mix session generates 3-5 additional ad opportunities compared to passive listening. The hypothesis is that users creating mood mixes are actively choosing to listen more, creating <em>incremental</em> sessions rather than replacing existing ones.
+                  </p>
+                  <p className="text-muted-foreground">
+                    <strong className="text-foreground">For Premium Users:</strong> WAU growth correlates with reduced churn. The hypothesis is that users who regularly use Mood Mix (2+ times/week) develop stronger emotional attachment to Spotify, reducing the likelihood they'll switch to competitors.
+                  </p>
+                  <p className="text-muted-foreground">
+                    <strong className="text-foreground">Addressing Cannibalization:</strong> To validate the feature isn't merely replacing existing sessions, tracking would include "net listening time" (total listening time for Mood Mix users vs. control group) and "new session rate" (% of mood mix sessions that occur at times users historically don't listen). If successful, Mood Mix users should show 15-20% higher total listening time, indicating growth rather than substitution.
+                  </p>
+                </div>
+              </div>
             </div>
           </Card>
 
           {/* Phased Launch Strategy */}
           <Card className="p-8 md:p-12 mb-12 bg-gradient-to-br from-primary/5 to-secondary/10 border-primary/20">
             <h3 className="text-2xl font-bold mb-6 text-foreground">Phased Launch Strategy</h3>
-            <p className="text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-muted-foreground mb-6 leading-relaxed">
               A three-phase rollout approach to validate assumptions early, gather real user feedback, and scale responsibly while maximizing learning opportunities.
             </p>
+            <div className="p-4 rounded-lg bg-background/50 border border-border/50 mb-8">
+              <p className="text-xs text-muted-foreground italic">
+                <strong className="text-foreground">Note:</strong> All target metrics and impact projections below are hypothetical estimates based on industry benchmarks and assumed user behavior patterns. Actual results would be validated through controlled testing during alpha/beta phases before committing to full launch.
+              </p>
+            </div>
 
             {/* Alpha/Beta Phase */}
             <Card className="p-8 mb-8 bg-background/50 border-border">
@@ -577,7 +600,7 @@ export const MetricsSuccess = () => {
             
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed">
-                We'll run controlled experiments throughout both launch phases to validate hypotheses and optimize the experience:
+                Controlled experiments would run throughout both launch phases to validate hypotheses and optimize the experience:
               </p>
 
               <div className="grid md:grid-cols-2 gap-6">
