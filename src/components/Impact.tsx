@@ -19,8 +19,13 @@ export const Impact = () => {
           {/* Impact Overview */}
           <Card className="p-8 md:p-12 mb-12 bg-gradient-to-br from-card to-secondary/20 border-border">
             <h3 className="text-2xl font-bold mb-6 text-foreground">Anticipated Business Impact</h3>
+            <div className="p-4 rounded-lg bg-background/50 border border-border/50 mb-6">
+              <p className="text-xs text-muted-foreground italic">
+                <strong className="text-foreground">Note:</strong> Impact projections are hypothetical estimates based on user research findings, competitive analysis, and industry benchmarks. Actual results would need to be validated through A/B testing and controlled rollout.
+              </p>
+            </div>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              While this is a case study of a proposed feature, the projected impact is based on validated assumptions from user research, competitive analysis, and Spotify's internal engagement data. Here's what success would look like:
+              Here's what success would look like if the feature performs according to projected targets:
             </p>
 
             <div className="grid md:grid-cols-3 gap-6">
